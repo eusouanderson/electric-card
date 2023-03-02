@@ -6,7 +6,7 @@
     border-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: auto;
-    
+    animation: colorup 5s infinite 2s;    
 }
 #contact{
     display: table;
@@ -32,8 +32,8 @@ h1{
 }
 
 @keyframes colorup {
-    from {background-color: rgb(129, 175, 11);}
-    to {background-color: #25d366;}
+    from {border-color: #a32630;}
+    to {border-color: #212420;}
 }
 
 @keyframes go-back {
