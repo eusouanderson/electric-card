@@ -4,26 +4,36 @@
     border-radius: 5%;
     border-style: dashed;
     border-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: auto;
     
+}
+#contact{
+    display: table;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 1em auto;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 1em 2em 1em 3.5em;
+    border-radius: 2em;
+    font-weight: bold;
+    background: #25d366 no-repeat 1em center;
+    background-size: 10em;
+    image-rendering: 50%;
+    height: auto;
+    width: auto;
 }
 card-box:hover{
     border-style: initial;
 }
 h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: auto;
-}
 
-button{
-    border-radius: 10%;
-    background-color: rgb(62, 143, 25);
-    animation-name: colorup;
-    animation: colorup 10s infinite;
 }
 
 @keyframes colorup {
     from {background-color: rgb(129, 175, 11);}
-    to {background-color: rgb(46, 170, 52);}
+    to {background-color: #25d366;}
 }
 
 @keyframes go-back {
