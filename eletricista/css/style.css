@@ -19,7 +19,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: auto;
     animation: colorup 5s infinite 2s;    
-    animation: bordeup 1s infinite 2s;
+   
 }
 #contact{
     display: table;
